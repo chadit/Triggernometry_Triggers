@@ -369,55 +369,92 @@
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="frontal conal tank buster" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Witch Hunt." Id="0de90cb7-c5ed-4bc3-a99e-41700d7c83dd" RegularExpression="The forgiven pedantry readies Witch Hunt." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="dash, move to sides" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Terrifying Glance." Id="b2df6b59-d056-4e11-ad0d-fe309cf7b97b" RegularExpression="The forgiven pedantry readies Terrifying Glance." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="look away" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies The Stake." Id="f1c06257-fe2a-4fd3-8f24-c8d7fe9e2e87" RegularExpression="The forgiven pedantry readies The Stake." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="Move away" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Left Cheek." Id="8e9741ba-17a8-420f-a1bb-63ae4dd0e2f3" RegularExpression="The forgiven pedantry readies Left Cheek." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="PlaySound" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundFileExpression="move right side then left" PlaySoundVolumeExpression="100" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Cleansing Fire." Id="bf08229b-f975-4cee-9545-c730846d1378" RegularExpression="The forgiven pedantry readies Cleansing Fire." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
                       <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="large aoe" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Trigger>
+                  <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Right Cheek." Id="9a648c1c-2197-4df7-8dc2-8de405dffc7d" RegularExpression="The forgiven pedantry readies Right Cheek." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="Move left side then right" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="f5a3511b-d7b6-463d-a840-50956b7a5dae" ZoneFilterRegularExpression="Amh\ Araeng" Name="Tarchia" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Source="Log" Name="Move Out" Id="647d208f-d9e3-4105-9c28-59164b3f6c76" RegularExpression="Move Out" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="move out" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="Tarchia readies Metamorphic Blast." ExpressionTypeL="String" ExpressionTypeR="String" ConditionType="NumericEqual" />
+                      <ConditionSingle Enabled="true" ExpressionL="Tarchia readies Mighty Spin." ExpressionTypeL="String" ExpressionTypeR="String" ConditionType="NumericEqual" />
+                      <ConditionSingle Enabled="true" ExpressionL="Tarchia readies Bafflement Bulb." ExpressionTypeL="String" ExpressionTypeR="String" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Source="Log" Name="Sides" Id="79430ca8-8474-47ae-8430-c5a8ec389344" RegularExpression="Sides" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="move sides" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="Tarchia readies Trounce." ExpressionTypeL="String" ExpressionTypeR="String" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Source="Log" Name="Tarchia readies Groundstorm." Id="0a7fd866-7bb0-48e4-acfe-4debf8073f82" RegularExpression="Tarchia readies Groundstorm." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="move to center" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
@@ -425,9 +462,9 @@
                     <Condition Enabled="false" Grouping="Or" />
                     <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Source="Log" Name="The forgiven pedantry readies Right Cheek." Id="9a648c1c-2197-4df7-8dc2-8de405dffc7d" RegularExpression="The forgiven pedantry readies Right Cheek." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                  <Trigger Enabled="true" Source="Log" Name="Tarchia readies Wild Horn." Id="31bbf5d9-55d3-40ac-9370-8879440ada64" RegularExpression="Tarchia readies Wild Horn." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
                     <Actions>
-                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="Move left side then right" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
+                      <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="conal tank buster" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys">
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
@@ -474,7 +511,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="efd41e3f-578c-4362-a9cc-b825ffab2d0f" Name="Eureka" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="efd41e3f-578c-4362-a9cc-b825ffab2d0f" Name="Eureka" Enabled="false">
         <Folders />
         <Triggers>
           <Trigger Enabled="false" Source="Log" Name="Hunt" Id="fd21dfa1-c73c-48f8-98c9-4faf1ad05fba" RegularExpression="03:.{8}:Added new combatant (?&lt;hunt&gt;Khalamari|Stegodon|Molech|Piasa|Frostmane|Daphne|King Goldemar|Leuke|Barong|Ceto|Ovni|Provenance Watcher|Phuabo|Tristitia)..+Level: 70 Max HP: \d{7,10}" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
@@ -485,10 +522,10 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="3c394fd6-7332-4337-925f-d9a21b20be00" Name="Fates" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="3c394fd6-7332-4337-925f-d9a21b20be00" Name="Fates" Enabled="false">
         <Folders />
         <Triggers>
-          <Trigger Enabled="true" Source="Log" Name="04 fates" Id="fd35673f-60bf-451b-8062-11023ca7c7fc" RegularExpression="03:.{8}:Added new combatant (?i)(Tamamo-No-Gozen|Ixion|Tribute to Gergei)\..+Level: 70 Max HP: \d{7,10} " DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+          <Trigger Enabled="false" Source="Log" Name="04 fates" Id="fd35673f-60bf-451b-8062-11023ca7c7fc" RegularExpression="03:.{8}:Added new combatant (?i)(Tamamo-No-Gozen|Ixion|Tribute to Gergei)\..+Level: 70 Max HP: \d{7,10} " DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
             <Actions>
               <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" ActionType="UseTTS" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSTextExpression="Fate, $1" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" KeypressType="SendKeys" />
             </Actions>
