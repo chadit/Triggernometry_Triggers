@@ -9,43 +9,36 @@
             <Actions>
               <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="HawkBlast" VariableExpression="${var:HawkBlast}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Action>
               <Action OrderNumber="2" UseTTSTextExpression="${var:HawkBlast}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="11" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
                 </Condition>
-                <Conditions />
               </Action>
               <Action OrderNumber="3" UseTTSTextExpression="1 and 2 get ready" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                <Conditions />
               </Action>
               <Action OrderNumber="4" UseTTSTextExpression="center, clock positions" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="10" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                <Conditions />
               </Action>
               <Action OrderNumber="5" UseTTSTextExpression="3 and 4 get ready" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                <Conditions />
               </Action>
               <Action OrderNumber="6" UseTTSTextExpression="5 and 6 get ready" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="7" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                <Conditions />
               </Action>
               <Action OrderNumber="7" UseTTSTextExpression="7 and 8 get ready" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:HawkBlast}" ExpressionTypeL="Numeric" ExpressionR="9" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
@@ -61,6 +54,89 @@
         </Triggers>
       </Folder>
     </Folders>
-    <Triggers />
+    <Triggers>
+      <Trigger Enabled="true" Name="Limiit Cut Number (Longer time to live)" Id="baaab2cc-0bdb-4146-9fed-f4772fb3d1e5" RegularExpression="1B:[A-F0-9]{8}:(?&lt;name&gt;[A-Za-z']+ [A-Za-z']+):....:....:00(?&lt;num&gt;[A-F0-9]{2}):....:....:....:">
+        <Actions>
+          <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="limitCutNumber" VariableExpression="hex2dec(${num})-78" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" UseTTSTextExpression="${var:limitCutNumber}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="UseTTS" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" VariableOp="SetString" VariableName="NSLimitCut" VariableExpression="North" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|2|5|6)" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="4" VariableOp="SetString" VariableName="NSLimitCut" VariableExpression="South" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|2|5|6)" ExpressionTypeR="String" ConditionType="RegexNotMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="5" VariableOp="SetString" VariableName="InOutLimitCut" VariableExpression="out" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|2|3|4)" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="6" VariableOp="SetString" VariableName="InOutLimitCut" VariableExpression="in" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|2|3|4)" ExpressionTypeR="String" ConditionType="RegexNotMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="7" VariableOp="SetString" VariableName="OrderLimitCut" VariableExpression="first" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|3|5|7)" ExpressionTypeR="String" ConditionType="RegexMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="8" VariableOp="SetString" VariableName="OrderLimitCut" VariableExpression="second" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${var:limitCutNumber}" ExpressionTypeL="String" ExpressionR="(1|3|5|7)" ExpressionTypeR="String" ConditionType="RegexNotMatch" />
+            </Condition>
+          </Action>
+          <Action OrderNumber="9" UseTTSTextExpression="${var:NSLimitCut}, ${var:limitCutNumber}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="10" TextAuraEffect="Bold" TextAuraFontSize="36" TextAuraOutline="Red" TextAuraName="limitcutterNum" TextAuraExpression="${var:limitCutNumber}" TextAuraXIniExpression="0" TextAuraYIniExpression="200" TextAuraWIniExpression="1920" TextAuraHIniExpression="500" TextAuraOIniExpression="100" TextAuraTTLTickExpression="10-${_since}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" Enabled="False" ActionType="TextAura" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="11" TextAuraEffect="Bold" TextAuraFontSize="36" TextAuraOutline="Red" TextAuraName="limitcutter" TextAuraExpression="${var:NSLimitCut}: ${var:limitCutNumber}" TextAuraXIniExpression="0" TextAuraYIniExpression="200" TextAuraWIniExpression="1920" TextAuraHIniExpression="500" TextAuraOIniExpression="100" TextAuraTTLTickExpression="30-${_since}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="true" Grouping="And">
+          <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivparty[1].name}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+          <ConditionSingle Enabled="true" ExpressionL="hex2dec(${num})-78" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+          <ConditionSingle Enabled="true" ExpressionL="hex2dec(${num})-78" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
+        </Condition>
+      </Trigger>
+      <Trigger Enabled="true" Name="Super Jump" Id="52650b42-a2b6-4c34-9416-3c65851984dd" RegularExpression="14:(1750|....):Brute Justice starts using Super Jump on (?&lt;char&gt;[a-zA-Z-']{1,15})\ [a-zA-Z-']" DebugLevel="Info">
+        <Actions>
+          <Action OrderNumber="1" PlaySoundExclusive="False" UseTTSTextExpression="jump ${char}" TextAuraFontSize="0" Enabled="False" ActionType="UseTTS" RefireInterrupt="True" RefireRequeue="False" />
+          <Action OrderNumber="2" TextAuraEffect="Bold" TextAuraFontSize="36" TextAuraForeground="Red" TextAuraOutline="Red" TextAuraName="super jump" TextAuraExpression="jump ${char}" TextAuraXIniExpression="0" TextAuraYIniExpression="200" TextAuraWIniExpression="1920" TextAuraHIniExpression="500" TextAuraOIniExpression="100" TextAuraTTLTickExpression="10" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\audio\superjump.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="Fluid Swing" Id="afe784a2-92f0-4f95-b697-ee4f71b3e0ad" RegularExpression="Fluid Swing" RefirePeriodExpression="30000">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="Tank Buster" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="The living liquid readies Protean Wave." Id="179069f2-3a5a-4db4-a8a6-5af5522b854d" RegularExpression="The living liquid readies Protean Wave.">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="Protean Wave" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+    </Triggers>
   </ExportedFolder>
 </TriggernometryExport>
