@@ -137,6 +137,32 @@
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
       </Trigger>
+      <Trigger Enabled="true" Name="Water/Thunder Countdown" Id="b8641816-3cb4-4b41-a183-39a8a44511aa" RegularExpression="1A:.{8}:(?&lt;name&gt;[a-z-A-Z']+ [a-z-A-Z']+) gains the effect of Compressed Water.*for (?&lt;len&gt;[0-9]+\.[0-9]+) Seconds\." DebugLevel="Info">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="5" VariableOp="SetNumeric" VariableName="water_countdown" VariableExpression="${jnumeric:${len}*1000}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="${numeric:(${len}*1000)-5000}" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+          <Action OrderNumber="2" UseTTSTextExpression="4" VariableOp="SetNumeric" VariableName="water_countdown" VariableExpression="${jnumeric:${len}*1000}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="1000" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+          <Action OrderNumber="3" UseTTSTextExpression="3" VariableOp="SetNumeric" VariableName="water_countdown" VariableExpression="${jnumeric:${len}*1000}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="1000" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+          <Action OrderNumber="4" UseTTSTextExpression="2" VariableOp="SetNumeric" VariableName="water_countdown" VariableExpression="${jnumeric:${len}*1000}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="1000" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+          <Action OrderNumber="5" UseTTSTextExpression="1" VariableOp="SetNumeric" VariableName="water_countdown" VariableExpression="${jnumeric:${len}*1000}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="1000" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
     </Triggers>
   </ExportedFolder>
 </TriggernometryExport>
